@@ -1,0 +1,12 @@
+/* css reset */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#pfp {
+    border-radius: 50%;
+    border: 5px solid #555;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
