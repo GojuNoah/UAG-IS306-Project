@@ -34,7 +34,16 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
-
+.hidden {
+    display: none;
+}
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
 /* body styling */
 body {
     font-family: Arial, sans-serif;
@@ -59,6 +68,14 @@ main {
     display: block;
     margin: 1rem auto;
 }
+#inspirationVideo {
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    border: 5px solid #555;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 1rem;
+}
 
 /* footer styling */
 footer {
@@ -69,4 +86,26 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+/* Responsive Design */
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    #inspirationVideo {
+        max-width: 100%;
+        height: auto;
+    }
+}
+/* adjust for bigger screens */
+@media (min-width: 1200px) {
+    #inspirationVideo {
+        max-width: 70%;
+        height: auto;
+    }
+    .hero {
+        font-size: 1.5rem;
+    }
+    .content {
+        font-size: 1.2rem;
+    }
 }
