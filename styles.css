@@ -20,7 +20,7 @@ nav {
     display: flex;
     position: fixed;
     width: 100%;
-    height: 10%;
+    height: 7%;
     top: 0;
     flex-direction: row-reverse;
     align-items: center;
@@ -37,17 +37,11 @@ nav ul li a {
 .hidden {
     display: none;
 }
-.bar {
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 4px 0;
-    transition: 0.4s;
-}
 /* body styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+    height: auto;
 }
 main {
     margin-top: 4rem;
@@ -56,8 +50,10 @@ main {
 }
 
 /* content section styling */
+/* about.html */
 #figure1 {
     text-align: center;
+    margin: 2rem auto;
 }
 #pfp {
     border-radius: 50%;
@@ -68,6 +64,7 @@ main {
     display: block;
     margin: 1rem auto;
 }
+/* inspiration.html */
 #inspirationVideo {
     width: 80%;
     height: auto;
@@ -76,20 +73,27 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-top: 1rem;
 }
+/* calander.html */
+#currentDate { 
+    margin: 1.5rem auto;
+    text-align: center;
+    font-size: 2rem;
+}
 
 /* footer styling */
 footer {
     background-color: #333;
     color: white;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
+    text-align: right;
+    padding: 1.25rem;
     width: 100%;
+    position: fixed;
     bottom: 0;
+    height: 7%;
 }
 
 /* Responsive Design */
-/* Adjust for smaller screens */
+/* Adjust for smaller screens */    
 @media (max-width: 768px) {
     #inspirationVideo {
         max-width: 100%;
