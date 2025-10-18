@@ -74,10 +74,27 @@ main {
     margin-top: 1rem;
 }
 /* calander.html */
-#currentDate { 
-    margin: 1.5rem auto;
-    text-align: center;
-    font-size: 2rem;
+#clock {
+   border: 5px solid purple;
+   border-radius: 20px;
+   width: 400px;
+   margin: 1.5rem auto; /* centered with auto */
+}
+#date, #time {
+   font-size: 2rem;
+   color:hsl(345, 81%, 42%);
+   text-shadow: 1px 1px 1px red, 1px 1px 5px black;
+   text-align: center;
+   margin: 15px auto;
+}
+/* got rid of font family and changed the colors and spacing */
+#wday {
+   font-size: 2.8rem;
+   color:hsl(345, 81%, 42%);
+   text-shadow: 3px 3px 3px red, 3px 3px 10px black;
+   text-align: center;
+   margin: 15px auto;
+   letter-spacing: 0.25rem;
 }
 
 /* footer styling */
