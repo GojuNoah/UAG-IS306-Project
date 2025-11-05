@@ -1,4 +1,4 @@
-﻿"use strict"
+"use strict"
 
 /*
    New Perspectives on HTML5 and CSS3, 8th Edition
@@ -12,7 +12,7 @@
 
 */
 
-var secsLeft = 10;
+var secsLeft = 60;
 var clockID = setInterval("countdown()", 1000);
 
 function countdown() {
@@ -25,7 +25,7 @@ function countdown() {
 
 
 function stopCountdown() { 
-   document.getElementById("Alert").textContent = "Time to Grind"      
+   document.getElementById("Alert").textContent = "Get to work!";      
    clearInterval(clockID);
 }
 

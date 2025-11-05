@@ -1,4 +1,4 @@
-﻿"use strict"
+"use strict"
 
 runClock();
 setInterval("runClock()", 1000);

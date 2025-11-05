@@ -20,7 +20,7 @@ nav {
     display: flex;
     position: fixed;
     width: 100%;
-    height: 7%;
+    height: 70px;
     top: 0;
     flex-direction: row-reverse;
     align-items: center;
@@ -37,11 +37,13 @@ nav ul li a {
 .hidden {
     display: none;
 }
+
 /* body styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     height: auto;
+    margin: auto;
 }
 main {
     margin-top: 4rem;
@@ -50,6 +52,13 @@ main {
 }
 
 /* content section styling */
+.header {
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.content {
+    margin: 5rem;
+}
 /* about.html */
 #figure1 {
     text-align: center;
@@ -74,39 +83,67 @@ main {
     margin-top: 1rem;
 }
 /* calander.html */
-#clock {
-   border: 5px solid purple;
+#clockDate {
+   border: 5px solid #555;
    border-radius: 20px;
    width: 400px;
    margin: 1.5rem auto; /* centered with auto */
 }
 #date, #time {
-   font-size: 2rem;
-   color:hsl(345, 81%, 42%);
+   font-size: 2.5rem;
+   color:hsl(9, 100%, 33%);
    text-shadow: 1px 1px 1px red, 1px 1px 5px black;
    text-align: center;
    margin: 15px auto;
 }
 /* got rid of font family and changed the colors and spacing */
 #wday {
-   font-size: 2.8rem;
-   color:hsl(345, 81%, 42%);
+   font-size: 3rem;
+   color:hsl(9, 100%, 33%);
    text-shadow: 3px 3px 3px red, 3px 3px 10px black;
    text-align: center;
    margin: 15px auto;
    letter-spacing: 0.25rem;
 }
+/* new countdown section styling */
+#clockCountdown {
+   border: 5px solid #555;
+   border-radius: 20px;
+   width: 400px;
+   font-family: Arial, Helvetica, sans-serif; /* changed font family */
+   margin: 1.5rem auto; /* centered with auto */
+}
+#seconds {
+   font-size: 6em;
+   height: 120px;
+   color:hsl(9, 100%, 33%);
+   text-shadow: 1px 1px 1px red, 3px 3px 10px black;
+   text-align: center;
+   margin: 15px auto;
+   font-family: Arial, Helvetica, sans-serif; /* changed font family */
+}
+
+#Alert {
+   font-size: 2em;
+   color:hsl(9, 100%, 33%);
+   text-shadow: 3px 3px 3px red, 3px 3px 10px black;
+   text-align: center;
+   margin: 15px auto;
+   letter-spacing: 0.25em;
+   height: 80px;
+   font-family: Arial, Helvetica, sans-serif; /* changed font family */
+}
 
 /* footer styling */
 footer {
-    background-color: #333;
+    background-color: #555;
     color: white;
     text-align: right;
     padding: 1.25rem;
     width: 100%;
     position: fixed;
     bottom: 0;
-    height: 7%;
+    height: 70px;
 }
 
 /* Responsive Design */
